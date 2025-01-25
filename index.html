@@ -7,7 +7,40 @@
 </head>
 <body>
     <header id="header"></header>
+
+    <div id="heroPage">
+        <h1>A World of<!-- Dummy info for css --></h1>
+        <h1>Possibilities</h1>
+        <p id="heroParagraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias tenetur placeat expedita voluptatem fugiat cum molestias incidunt sunt ex, nostrum asperiores voluptates hic sapiente iste consequuntur tempora eius ut voluptate.</p>
+    </div>
+
+    <img src="./img/img1.jpg" alt="slideshow of Buildings" width="600" height="325">
+    
+    <h2 id="projectList">Project List</h2>
+    <ul>
+        <li>Project1</li>
+        <li>Project2</li>
+        <li>Project3</li>
+        <li>Project4</li>
+        <li>Project5</li>
+        <li><a href="#">More...</a></li>
+    </ul>
+
+    <h2 id="about">About</h2>
+    <p>Harshal Sanjeev Mhatre</p>
+    <p>Architect & Interior Designer</p>
+    <p> I have been in this field for 1.6 years, having completed both residential and commercial building projects. I have expertise in planning, design, and Municipal drawing.</p>
+    <button id="CV">My CV</button>
+    
+    <h2 id="contactMe">Contact Me</h2>
+    <form>
+        <input type="text" value="Name & Surname">
+        <input type="email" value="Email id">
+        <input type="text" value="Message">
+    </form>
+
     <footer id="footer"></footer>
+
     <script>
         fetch('header.html')
             .then(response => response.text())
